@@ -1,0 +1,28 @@
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project state
+.Rproj.user/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and log files
+*.tmp
+*.log
+
+# Local secrets and credentials
+.env
+.Renviron
+# Duplicate differential-expression output
+/results/differential_expression_results.csv
+# Duplicate differential-expression output
+/results/differential_expression_results.csv
+
+# Initial R setup test; not part of the main pipeline
+/test_setup.R
